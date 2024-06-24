@@ -3,8 +3,10 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
-[dependencies]
-openzeppelin = { git = "https://github.com/OpenZeppelin/openzeppelin-contracts.git", version = "v4.7.0" }
+ffi = true
+ast = true
+build_info = true
+extra_output = ["storageLayout"]
 
 [rpc_endpoints]
 # The RPC URLs are modified versions of the default for testing initialization.

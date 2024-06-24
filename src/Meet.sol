@@ -2,7 +2,7 @@
 // Compatible with OpenZeppelin Contracts v5.0.0
 pragma solidity ^0.8.20;
 
-// import {ERC721} from "openzeppeline-contracts/token/ERC721/ERC721.sol";
+import {ERC721} from "lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/";
 // import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 // import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Burnable.sol";
 // import "@openzeppelin/contracts/access/Ownable.sol";
